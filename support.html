@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>СНеЖоК</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="img/snejinka.png">
+</head>
+<body>
+	<div class="head">
+		<div class="title">
+			<h1 class="title-name"><a href="index.html">СНеЖоК</a></h1>
+			<p class="title-secondname"><i>Магазин мороженого</i></p>
+		</div>
+		<nav class="navigation">
+			<ul class="navigation__topmenu">
+				<li>
+					<a href="index.html">Главная</a>
+				</li>
+				<li>
+					<a href="catalog.html">Каталог</a>
+				</li>
+				<li>
+					<a href="contacts.html">Контакты</a>
+				</li>
+				<li>
+					<a href="support.html">Поддержка</a>
+				</li>
+				<li>
+					<a href="about.html">О нас</a>
+				</li>
+			</ul>
+			<div class="phone">
+				<a class="phone_link" href="tel:+79999999999">+7 (999) 999-99-99</a>
+			</div>
+		</nav>
+	</div>
+	
+	
+	<div class="container section-support">
+		<div class="support">
+			<header class="support__header --header">
+				Поддержка
+			</header>
+			<div class="support__content">
+				<div class="support__info">
+					<p class="support__text">При возникновении проблем работы с сайтом вы можете обратиться к разработчику этого интерент-ресурса по следующим контактам или заполнить форму ниже.</p>
+					<p class="support__text"><b>Почта: </b>brusov2001@bk.ru</p>
+					<p class="support__text"><b>Телефон: </b> +7 (915) 146-34-34</p>
+					<form class="support__form" action="mailto:brusov2001@bk.ru" enctype="text/plain">
+						<fieldset>
+							<legend>Ваши данные</legend>
+							<p class="form__contacts"><label for="name">Имя </label><input class="support__form-field" type="text" name="name" placeholder="Введите ваше имя" required></p>
+							<p class="form__contacts"><label for="email">Почта </label><input class="support__form-field" type="email" name="email" placeholder="Введите вашу электронную почту" required></p>
+							<p class="form__contacts"><label for="phone">Телефон </label><input class="support__form-field" type="tel" name="phone" placeholder="+7 (900) 000-90-80" required pattern="[+]+[7]+[(]+[0-9]{3}+[)]+[0-9]{3}-[0-9]{2-[0-9]{2}}"></p>
+						</fieldset>
+						<fieldset>
+							<legend>Проблема</legend>
+							<p class="form__problem">Опишите вашу проблему</p>
+							<p><textarea class="form__problem-input"></textarea></p>
+						</fieldset>
+						<input class="support__form-button" type="submit" value="отправить">
+					</form>
+				</div>
+				<div class="support__img">
+					<img src="img/operator.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
